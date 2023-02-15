@@ -10,12 +10,12 @@ function mostra(frase) {
     pulaLinha();
 }
 
- var numeroPensado = Math.random() * 10;
+ var numeroPensado = Math.round(Math.random() * 10);
 
  var chute = parseInt(prompt("Digite seu chute!!!"));
  
  if(chute == numeroPensado) {
     mostra("Você acertou!!!")
  } else {
-    mostra("Você errou!!!")
+    mostra("Você errou, o numero pensado foi " + numeroPensado)
  }
