@@ -19,12 +19,12 @@ var multiplicador = 1;
 
 while(multiplicador <= 10) {
     mostra(7 * multiplicador);
-    multiplicador = multiplicador + 1;
+    multiplicador++;
 }
 quebraLinha()
 
  
-for(var multiplicador = 1; multiplicador <= 10; multiplicador = multiplicador + 1) {
+for(var multiplicador = 1; multiplicador <= 10; multiplicador++) {
     mostra(7 * multiplicador);
 
 }
