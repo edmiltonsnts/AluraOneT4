@@ -1,11 +1,37 @@
+body {
+    
+}
+#banner {
+    width: 100%;
+}
+
+.header {
+    background-color: #CCCCCC;
+}
+
 h1 {
-    text-align: center;
+    text-align: center; 
 }
 
-missao {
-    font-size: 16px;
-
-}
 p {
+    text-align: center; 
+}
+
+#missao {
+    font-size: 20px;
+}
+
+em strong {
+    color: #FF0000;
+}
+.itens {
+    font-style: italic;
+}
+.footer {
+    
+    background-color: #FFFFFF;
+}
+h2 {
     text-align: center;
 }
+
