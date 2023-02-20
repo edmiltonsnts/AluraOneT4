@@ -2,11 +2,17 @@
     width: 100%;
 }
 
-.header {
-    background-color: #CCCCCC;
+.titulo-principal {
+    padding-left: 20px;
+
 }
 
-h1 {
+.principal {
+    background-color: #CCCCCC;
+    padding: 30px;
+}
+
+.titulo-centralizado {
     text-align: center; 
 }
 
@@ -24,11 +30,18 @@ em strong {
 .itens {
     font-style: italic;
 }
-.footer {
-    
+.missao {
     background-color: #FFFFFF;
+    padding: 20px;
 }
-h2 {
-    text-align: center;
+
+ul {
+    display: inline-block;
+    vertical-align: top;
+    width: 20%;
+    margin-right: 15%;
+}
+.imagemBeneficios {
+    width: 50%;
 }
 
