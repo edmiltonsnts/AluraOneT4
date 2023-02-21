@@ -14,6 +14,7 @@
 
 .titulo-centralizado {
     text-align: center; 
+    font-size: 22px;
 }
 
 p {
@@ -35,13 +36,18 @@ em strong {
     padding: 20px;
 }
 
+
 ul {
     display: inline-block;
     vertical-align: top;
     width: 20%;
     margin-right: 15%;
+    font-size: 20px;
 }
 .imagemBeneficios {
     width: 50%;
+    text-align: justify;
+    
+    
 }
 
